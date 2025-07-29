@@ -11,12 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="CodeZen"
+        android:fontFamily="@font/homemade_apple"
+        android:text="Apple"
         android:textAlignment="center"
-        android:textSize="40sp"
+        android:textAppearance="@style/TextAppearance.Quote"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#EF476F"
+
 
     <TextView
         android:id="@+id/mainQuote"
@@ -39,6 +42,9 @@
         app:layout_constraintEnd_toEndOf="@+id/mainQuote"
         app:layout_constraintStart_toStartOf="@+id/mainQuote"
         app:layout_constraintTop_toBottomOf="@+id/mainQuote" />
+        android:textSize="20sp"
+        android:textColor="#073B4C"
+        android:padding="8dp"
 
     <ImageView
         android:id="@+id/banner"
